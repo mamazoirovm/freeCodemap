@@ -1,28 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FreeCodeCamp</title>
-</head>
-<body>
-    <header class="navbar">
-        <div class="logo">
-            <a href="#">FreeCodeCamp</a>
-        </div>
-        <input type="checkbox" id="toggle-menu">
-        <label for="toggle-menu" class="menu-button">&#9776;</label>
-        <nav class="nav-links">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Curriculum</a></li>
-                <li><a href="#">Certifications</a></li>
-                <li><a href="#">Forum</a></li>
-                <li><a href="#">Donate</a></li>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <div class="header">
+        <nav class="nav">
+
+    <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input autofocus type="text" placeholder="Search 9.000 tutorials ">
+    </div>
+    <a href="#">
+      <img class="logo" src="	https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="">
+  </a>
+    
+        <input type="checkbox" name="" id="check">
+        <label for="check"></label>
+        <ul>
+          <li><a href="#"><i class="fa-solid fa-globe"></i></a></li>
+          <li>
+            <a class="menu" href="#">Menu</a>
+            <ul class="dropdown-menu">
+              <li><a href="#"> Donate </a></li>
+              <li><a href="#"> Curriculum </a></li>
+              <li><a href="#"> Forum </a></li>
+              <li><a href="#"> News</a></li>
+              <li><a href="#"> Radio</a></li>
+              <li><a href="#">Contribute</a></li>
             </ul>
+          </li>
+          <li ><a class="sign" href="./second.html">Sign in</a></li>
+        </ul>
+
         </nav>
-    </header>
-    <!-- Rest of your content here -->
-</body>
+    </div>
+
+    <section class="main">
+      <input class="button" placeholder="YES" type="checkbox">
+    </section>
+    <section class="chek-menu">
+      <input class="button" placeholder="YES" type="checkbox">
+    </section>
+
+    <section class="btn">
+      <button class="dark">ON</button>
+    </section>
+
+    <script src="./app.js"></script>
+  </body>
 </html>
