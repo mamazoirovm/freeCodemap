@@ -50,7 +50,7 @@ body {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 30px;
+    gap: 10px;
     a {
       text-decoration: none;
       color: white;
@@ -70,7 +70,7 @@ body {
 
 }
 .logo {
-  width: 230px;
+  max-width: 230px;
   height: 40px;
 }
 .navbar {
@@ -348,8 +348,11 @@ body {
     }
   }
   .sign{
-    width: 50px;
+    width: 70px;
     height: 70px;
-    font-size: 5px;
+    font-size: 15px;
+  }
+  .logo{
+    
   }
 }
