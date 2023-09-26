@@ -4,7 +4,7 @@ let isDarkMode = false;
 
 dark.addEventListener("click", () => {
     if (isDarkMode) {
-        Body.style.background = "black";
+        Body.style.background = "white";
         dark.style.marginLeft = "70px"
         dark.textContent = "OFF"
         isDarkMode = false;
